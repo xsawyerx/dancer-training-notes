@@ -1,7 +1,7 @@
 use Dancer2;
 
 get '/yes' => sub {
-    redirect 'no';
+    redirect '/no';
     die "No, you won't...";
 };
 
